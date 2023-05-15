@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+ font-family: monospace;
+ font-size:10px;
+
+  min-width: 320px; 
+ 
+}
+ #background{
+    width:100%;
+  
+    height:100vh;
+    background-image: url(images//desktop-3261768_1920.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+.logo{
+    text-transform: uppercase;
+    color:#030b43;
+    padding:0.8em;
+    position: relative;
+    top:1%;
+ 
+    font-size: 2em;
+    font-weight:bold;
+}
+.navbar{
+    float: right;
+}
+.navbar ul{
+display: flex;
+position: relative;
+bottom:4em;
+
+
+   
+}
+.navbar ul li{
+
+    padding-right:1em ;
+    list-style: none;
+    
+}
+.navbar ul li a{
+text-decoration: none;
+color:#0b045b;
+font-size: 1.5em;
+
+} 
+
+   
+ 
+
+
+a:hover,a.active{
+    background-color: rgb(126, 162, 241);
+    border-radius: 10px;
+    transition: 1s;
+}
+@media screen and (min-width:320px) and (max-width:900px){
+  .image img{
+    position: relative;
+    left:40%;
+    top:3%;
+
+    height: 20%;
+    width:20%;
+    border-radius: 50%;
+}
+ p.htmlcss{
+  font-size: 1em;
+    font-family:fantasy;
+    letter-spacing: 0.1%;
+    word-spacing: 0.3%;
+    column-count: 4;
+    color:#ffffff;
+    position: relative;
+    top:10%;
+    
+}
+}
+@media screen and (min-width:901px) and (max-width:1800px){
+  .image img{
+    position: relative;
+    left:40%;
+    top:3%;
+
+    height: 20%;
+    width:20%;
+    border-radius: 50%;
+}
+}
+
+.image h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+.image p{
+    position: relative;
+    top:6%;
+    font-size: 1.85em;
+    text-align: center;
+    color: #000000;
+    column-count: 3;
+    column-width: 3%;
+    column-rule-style: double;
+    column-gap: 5%;
+    column-rule-color: blue;
+}
+#btn{
+    position: relative;
+    top:10%;
+    left:95%;
+    background-color: #bdbaba;
+}
+#About{
+  
+    height:100vh;
+    width:100%;
+    background-image: url(images/business-3362086_1920.jpg);
+    background-size: cover;
+    
+}
+#About h1{
+    text-transform: uppercase;
+    font-size:4em;
+    text-align: center;
+    
+}
+#About img{
+    border-radius: 50%;
+    width:20%;
+    height: 20%;
+    display: flex;
+    
+    
+}
+#About p{
+  
+    font-size: 1.1em;
+    font-family:fantasy;
+    letter-spacing: 0.1%;
+    word-spacing: 0.3%;
+    column-count: 4;
+    color:#ffffff;
+
+}
+#About a{
+    font-size:2em;
+    padding-right: 5em;
+}
+
+#Services{
+    height:100vh;
+    width: 100%;
+background-image: url(images/network-2402637.jpg);
+background-size: cover;
+}
+#Services h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3em;
+    color:#fff;
+
+}
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 0.1% solid #dddddd;
+    text-align: left;
+    padding: 0.8%;
+    color:white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #310971;
+  }
+  #Projects{
+    height:100vh;
+    width:100%;
+   background-image: url(images/computer-3174729_1920.jpg);
+
+  }
+  #Projects h1{
+    text-transform: uppercase;
+    font-size:3em;
+    text-align: center;
+    font-family: monospace;
+    color:aquamarine;
+  }
+  #btn1{
+    position: relative;
+    top:20%;
+  }
+  .card-img-top{
+  width: 20%;
+  height: 20vh;
+  border-radius: 10px;
+  }
+  
+
+  @keyframes donme {
+    0% {
+      transform: rotate(0deg);
+      border:5px solid black;
+    }
+    100% {
+      transform: rotate(720deg);
+      border:0.5% solid  rgb(159, 159, 212);
+    }
+  }
+  
